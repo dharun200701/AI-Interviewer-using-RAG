@@ -1,7 +1,11 @@
 ﻿venv/
 .venv/
+# =========================
+# Python
+# =========================
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
 
 node_modules/
 
@@ -20,3 +24,7 @@ build/
 dataset/
 # FAISS generated files
 vector_db/*.index
+
+# Environment variables
+.env
+.env.*
